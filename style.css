@@ -276,7 +276,7 @@ nav .navigation ul li a:hover {
 
 }
 
-#registration .form {
+#registration form {
     background-color: #fff;
     border-radius: 8px;
     display: flex;
@@ -286,25 +286,24 @@ nav .navigation ul li a:hover {
     padding: 40px;
 
 }
-
-#registration .form input {
+#registration form input[type='text'],[type='email'] {
     margin: 15px 0;
     padding: 15px 10px;
     border: 1px solid purple;
     outline: none;
 }
 
-#registration .form input::placeholder {
+#registration form input::placeholder {
     color: #413c3c;
     font-weight: 500;
     font-size: 0.9rem;
 }
 
-#registration .form .btn {
+#registration form .btn {
     margin-top: 20px;
 }
 
-#registration .form a.blue {
+#registration form input.blue {
     text-decoration: none;
     background-color: #fff;
     font-weight: 600;
@@ -316,7 +315,7 @@ nav .navigation ul li a:hover {
     transition: 0.3s ease;
 }
 
-#registration .form a.blue:hover {
+#registration form input.blue:hover {
     color: rgba(21, 21, 100);
     background-color: #fff;
     border: 1px solid rgb(21, 21, 100);
@@ -455,4 +454,7 @@ footer .copyright .pro-links i {
 footer .copyright .pro-links i:hover {
     background-color: #FDC93B;
     color: #fff;
+}
+#text-danger1,#text-danger2,#text-danger3{
+    color: red;
 }
